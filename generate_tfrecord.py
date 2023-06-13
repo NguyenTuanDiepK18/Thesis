@@ -32,8 +32,8 @@ def class_text_to_int(row_label):
         'none': (0, 'Background'),
         'a': (1, 'a'),
         'b': (2, 'b'),
-        'c': (3, 'c'),
-}
+        'c': (3, 'c')
+    }
     return VOC_LABELS[row_label][0]
     # if row_label == 'mobile':
     #     return 1
